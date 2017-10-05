@@ -8,6 +8,7 @@ class CreateMovies < ActiveRecord::Migration
       #add fields that let Rails automatically keep track
       #of when movies are added or modified:
       t.timestamps
+      
     end
   end
 end
